@@ -17,7 +17,7 @@ export default function Solutions() {
             Landing Pages / Applications
           </Link>
           <Image
-            src="/nextlevel.jpg"
+            src="/nextlevel.JPG"
             alt="Full stack development"
             height={700}
             width={600}
@@ -29,7 +29,7 @@ export default function Solutions() {
               <div className="display">
                 <div className="artboard artboard-demo phone-1">
                   <Image
-                    src="/jhj.png"
+                    src="/jhj.PNG"
                     alt="Screen shot of dashboard on iphone"
                     height={692}
                     width={320}
