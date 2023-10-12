@@ -10,7 +10,7 @@ const projects = [
     date: "August 2023",
     datetime: "2023-08-16",
     imageUrl:
-      "/raffs.jpg",
+      "/raffs.png",
     author: {
       name: "Ali Shalash",
       href: "#",
@@ -70,11 +70,11 @@ export default function Portfolio() {
             <div key={project.title} className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <Image
-                  className="h-48 w-full object-cover"
+                  className="h-full w-full object-cover"
                   src={project.imageUrl}
                   alt="image for content"
-                  height={192}
-                  width={192}
+                  height={1080}
+                  width={1280}
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
