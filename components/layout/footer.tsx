@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="mt-4 space-y-8 md:mt-0 xl:col-span-1">
           <Link href="/" className="flex items-center justify-center font-display text-2xl">
-            <Image src="/logo.png" alt="PP logo" width="250" height="30" className="mr-2 rounded-sm"></Image>
+            <Image src="/logo.png" alt="PP logo" width="250" height="50" className="mr-2 rounded-sm"></Image>
           </Link>
 
         </div>

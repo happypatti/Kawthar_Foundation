@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="relative mx-auto max-w-md">
               <Image
                 className="mx-auto w-2/3 md:w-full"
-                src="/pixel.png"
+                src="/pixelated.png"
                 alt="PP logo"
                 height={600}
                 width={550}
