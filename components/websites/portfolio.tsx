@@ -10,7 +10,7 @@ const projects = [
     date: "August 2023",
     datetime: "2023-08-16",
     imageUrl:
-      "https://i.ibb.co/tpxMLk4/raffs-tiress.jpg",
+      "/raffs.jpg",
     author: {
       name: "Ali Shalash",
       href: "#",
@@ -26,7 +26,7 @@ const projects = [
       "We worked with Lextro to update their outdated website and built them a custom catalogue that runs off a python backend(deployed using heraku).",
     date: "October 2023",
     datetime: "2020-07-01",
-    imageUrl: "/lextro.png",
+    imageUrl: "/lextro.PNG",
     author: {
       name: "Ali Shalash",
       href: "#",
