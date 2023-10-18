@@ -29,8 +29,8 @@ export default function Hero() {
             business.
           </p>
           <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
-            <p className="text-base font-medium text-gray-900">Sign up for a free consultation!</p>
-            <form action="#" method="POST" className="mt-3 sm:flex">
+            <p className="text-base font-medium text-gray-900">Enter email for a free consultation!</p>
+            <form action="https://formspree.io/f/moqoyzqj" method="POST" className="mt-3 sm:flex">
               <label htmlFor="email" className="sr-only">
                 Email
               </label>
