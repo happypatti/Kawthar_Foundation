@@ -32,7 +32,7 @@ export default function ContactUs() {
           </div>
           <div className="bg-white px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
             <div className="mx-auto max-w-lg lg:max-w-none">
-              <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
+              <form action="https://formspree.io/f/moqoyzqj" method="POST" className="grid grid-cols-1 gap-y-6">
                 <div>
                   <label htmlFor="full-name" className="sr-only">
                     Full name
