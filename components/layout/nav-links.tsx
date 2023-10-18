@@ -17,7 +17,7 @@ export default function NavLinks({ className, close }: { className?: string; clo
           {name}
         </NavLink>
       ))}
-      <button className="active:bg-grey-400 flex w-full items-center justify-center space-x-2 rounded-md bg-amber-300 p-2 text-sm transition-all duration-300 hover:bg-amber-400"
+      <button className="active:bg-grey-400 flex w-full items-center justify-center space-x-2 rounded-md bg-blue-400 p-2 text-sm transition-all duration-300 text-white hover:text-black"
        onClick={() => window.location.href = "/about-us"}>
         Contact us
       </button>

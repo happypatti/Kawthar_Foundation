@@ -6,18 +6,18 @@ import WebVitals from "./web-vitals";
 
 export default function Solutions() {
   return (
-    <div className="relative isolate w-full bg-blue-400 font-virgil text-3xl text-black md:overflow-hidden lg:h-[80vh]">
+    <div className="relative isolate w-full bg-gray-800 text-3xl text-black md:overflow-hidden lg:h-[80vh]">
       <div className="container mx-auto h-full space-y-3 px-4 lg:grid lg:grid-cols-5 lg:space-y-0">
-        <div className="py-4 text-center text-orange-300">Solutions</div>
+        <div className="py-4 text-center text-gray-400">Solutions</div>
         <div className="group lg:contents">
           <Link
             href="/websites"
-            className="isolate z-10 flex items-center justify-center bg-amber-200 py-8 text-center hover:text-2xl md:after:translate-y-full md:hover:after:transform-none lg:-skew-x-[20deg] lg:after:absolute lg:after:inset-0 lg:after:-z-10 lg:after:bg-amber-400 lg:after:transition-all lg:after:duration-300"
+            className="isolate z-10 flex items-center justify-center bg-gray-700 text-gray-400 py-8 text-center hover:text-2xl md:after:translate-y-full md:hover:after:transform-none lg:-skew-x-[20deg] lg:after:absolute lg:after:inset-0 lg:after:-z-10 lg:after:bg-blue-400 hover:text-white lg:after:transition-all lg:after:duration-300"
           >
-            Landing Pages / Applications
+            Landing Pages
           </Link>
           <Image
-            src="/nextlevel.JPG"
+            src="/sooo.png"
             alt="Full stack development"
             height={700}
             width={600}
@@ -45,7 +45,7 @@ export default function Solutions() {
         <div className="group lg:contents">
           <Link
             href="/seo"
-            className="isolate z-10 flex items-center justify-center bg-green-200 py-8 text-center hover:text-2xl md:after:translate-y-full md:hover:after:transform-none lg:-skew-x-[20deg] lg:after:absolute lg:after:inset-0 lg:after:-z-10 lg:after:bg-green-400 lg:after:transition-all lg:after:duration-300"
+            className="isolate z-10 flex items-center justify-center bg-slate-600 text-gray-400 py-8 text-center hover:text-2xl md:after:translate-y-full md:hover:after:transform-none lg:-skew-x-[20deg] lg:after:absolute lg:after:inset-0 lg:after:-z-10 lg:after:bg-blue-400 hover:text-white lg:after:transition-all lg:after:duration-300"
           >
             SEO
           </Link>
@@ -69,7 +69,7 @@ export default function Solutions() {
         <div className="group lg:contents">
           <Link
             href="/digital-marketing"
-            className="isolate z-10 flex items-center justify-center bg-red-200 py-8 text-center hover:text-2xl md:after:translate-y-full md:hover:after:transform-none lg:-skew-x-[20deg] lg:after:absolute lg:after:inset-0 lg:after:-z-10 lg:after:bg-red-400 lg:after:transition-all lg:after:duration-300"
+            className="isolate z-10 flex items-center justify-center bg-gray-500 text-gray-400 py-8 text-center hover:text-2xl md:after:translate-y-full md:hover:after:transform-none lg:-skew-x-[20deg] lg:after:absolute lg:after:inset-0 lg:after:-z-10 lg:after:bg-blue-400 hover:text-white lg:after:transition-all lg:after:duration-300"
           >
             Digital Marketing
           </Link>
@@ -89,7 +89,7 @@ export default function Solutions() {
         </div>
 
         <div className="flex items-end">
-          <Link href="about-us" className="flex items-end py-4 text-red-500 hover:text-red-600 hover:underline">
+          <Link href="about-us" className="flex items-end py-4 text-gray-400 hover:text-white hover:underline">
             About Us
             <ArrowRightIcon className="ml-2 h-6 w-6" />
           </Link>

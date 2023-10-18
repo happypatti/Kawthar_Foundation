@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Raff's Tire",
-    href: "https://www.raffstire.com",
-    category: { name: "Landing Page", href: "https://www.raffstire.com" },
+    title: "Shunar Construction",
+    href: "https://shunar-repo.vercel.app",
+    category: { name: "Landing Page", href: "https://shunar-repo.vercel.app" },
     description:
-      "All your used tire and auto repair needs in one place. We worked with Raff's Tires to build a beautiful landing page that showcases their services and allows customers to contact them.",
+      "We worked with Shunar Construction to create a landing page for their business. They specialize in a great deal of construction services and we wanted to make sure that their website reflected that.",
     date: "August 2023",
     datetime: "2023-08-16",
     imageUrl:
-      "/raffs.png",
+      "/sooo.png",
     author: {
       name: "Ali Shalash",
       href: "#",
@@ -50,6 +50,40 @@ const projects = [
         "/ali.jpg",
     },
   },
+  {
+    title: "Raff's Tire",
+    href: "https://www.raffstire.com",
+    category: { name: "Landing Page", href: "https://www.raffstire.com" },
+    description:
+      "All your used tire and auto repair needs in one place. We worked with Raff's Tires to build a beautiful landing page that showcases their services and allows customers to contact them.",
+    date: "August 2023",
+    datetime: "2023-08-16",
+    imageUrl:
+      "/raffs.png",
+    author: {
+      name: "Ali Shalash",
+      href: "#",
+      imageUrl:
+        "/ali.jpg",
+    },
+  },
+  {
+    title: "Used Tires & Auto Repair",
+    href: "https://www.usedtireautolexington.com",
+    category: { name: "Landing Page", href: "https://www.usedtireautolexington.com" },
+    description:
+      "We worked with Used Tires & Auto Repair to create a landing page, and to also optimize their SEO. They are currently enjoying new clients and a higher ranking on Google.",
+    date: "August 2023",
+    datetime: "2023-08-16",
+    imageUrl:
+      "/usedtire.png",
+    author: {
+      name: "Ali Shalash",
+      href: "#",
+      imageUrl:
+        "/ali.jpg",
+    },
+  },
 ];
 
 export default function Portfolio() {
@@ -73,7 +107,7 @@ export default function Portfolio() {
                   className="h-full w-full object-cover"
                   src={project.imageUrl}
                   alt="image for content"
-                  height={1080}
+                  height={720}
                   width={1280}
                 />
               </div>
