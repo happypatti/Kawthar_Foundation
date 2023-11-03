@@ -7,13 +7,13 @@ const projects = [
     category: { name: "Landing Page", href: "https://aalawky.com" },
     description:
       "AA Law needed a landing page and more importantly, they were looking for the perfect SEO. We also helped them get started with GoogleAds to help them get even more clients.",
-    date: "August 2023",
-    datetime: "2023-08-16",
+    date: "November 2023",
+    datetime: "2023-11-01",
     imageUrl:
       "/aalaw.png",
     author: {
       name: "Ali Shalash",
-      href: "#",
+      href: "https://pixelperfectky.com/about-us",
       imageUrl:
         "/ali.jpg",
     },
@@ -29,7 +29,7 @@ const projects = [
     imageUrl: "/nextl3v3l.png",
     author: {
       name: "Ali Shalash",
-      href: "#",
+      href: "https://pixelperfectky.com/about-us",
       imageUrl:
         "/ali.jpg",
     },
@@ -45,7 +45,7 @@ const projects = [
     imageUrl: "/lextro.PNG",
     author: {
       name: "Ali Shalash",
-      href: "#",
+      href: "https://pixelperfectky.com/about-us",
       imageUrl:
         "/ali.jpg",
     },
@@ -62,7 +62,7 @@ const projects = [
       "/sooo.png",
     author: {
       name: "Ali Shalash",
-      href: "#",
+      href: "https://pixelperfectky.com/about-us",
       imageUrl:
         "/ali.jpg",
     },
@@ -79,7 +79,7 @@ const projects = [
       "/usedtire.png",
     author: {
       name: "Ali Shalash",
-      href: "#",
+      href: "https://pixelperfectky.com/about-us",
       imageUrl:
         "/ali.jpg",
     },
@@ -96,7 +96,7 @@ const projects = [
       "/raffs.png",
     author: {
       name: "Ali Shalash",
-      href: "#",
+      href: "https://pixelperfectky.com/about-us",
       imageUrl:
         "/ali.jpg",
     },
