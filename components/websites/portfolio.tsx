@@ -26,7 +26,7 @@ const projects = [
       "We created a custom website for NEXTLEVEL Sports of Lexington. The website is built using Next.js and Tailwind CSS. This site features a backend capable of handling reservations and payments.",
     date: "September 2023",
     datetime: "2023-09-12",
-    imageUrl: "/nextl3v3l.PNG",
+    imageUrl: "/nextl3v3l.png",
     author: {
       name: "Ali Shalash",
       href: "#",
