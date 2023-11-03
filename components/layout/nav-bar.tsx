@@ -32,7 +32,7 @@ export default function NavBar() {
               <Image src="/logo.png" alt="PP logo" width="250" height="50" className="mt-8 mr-2 rounded-sm"></Image>
               
             </Link>
-            <NavLinks className="hidden items-center space-x-8 whitespace-nowrap sm:flex" close={close} />
+            <NavLinks className="hidden items-center text-lg space-x-8 whitespace-nowrap sm:flex" close={close} />
             {/* Mobile Nav Toggle */}
             <button
               type="button"
