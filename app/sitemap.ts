@@ -1,22 +1,27 @@
 import { MetadataRoute } from "next";
-import prisma from "@/lib/prisma";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const users = await prisma.user.findMany({
-    select: {
-      id: true,
-    },
-    take: 1,
-  });
 
   return [
     {
-      url: "https://precedent.dev",
+      url: "https://pixelperfectky.com",
       lastModified: new Date(),
     },
-    ...users.map((user) => ({
-      url: `https://precedent.dev/${user.id}`,
+    {
+      url: "https://pixelperfectky.com/websites",
       lastModified: new Date(),
-    })),
+    },
+    {
+      url: "https://pixelperfectky.com/seo",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://pixelperfectky.com/digital-marketing",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://pixelperfectky.com/about-us",
+      lastModified: new Date(),
+    },
   ];
 }

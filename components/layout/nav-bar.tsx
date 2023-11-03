@@ -3,13 +3,12 @@
 import useScroll from "@/lib/hooks/use-scroll";
 import { cn } from "@/lib/utils";
 import { MenuIcon, XIcon } from "lucide-react";
-import { Session } from "next-auth";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import NavLinks from "./nav-links";
 
-export default function NavBar({ session }: { session: Session | null }) {
+export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
   const scrolled = useScroll(50);

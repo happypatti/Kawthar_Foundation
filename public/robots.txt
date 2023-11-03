@@ -1,0 +1,4 @@
+Sitemap: https://pixelperfectky.com/sitemap.xml
+
+User-agent: *
+Disallow: /api
