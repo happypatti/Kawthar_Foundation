@@ -29,7 +29,7 @@ export default function Solutions() {
               <div className="display">
                 <div className="artboard artboard-demo phone-1">
                   <Image
-                    src="/jhj.PNG"
+                    src="/aalww.png"
                     alt="Screen shot of dashboard on iphone"
                     height={692}
                     width={320}

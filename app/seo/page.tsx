@@ -52,7 +52,7 @@ return (
     <div className="bg-white/20 backdrop-blur-xl">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-900 text-center items-center tracking-tight">Search Engine Optimization</h2>
-        <p className="mt-4 text-xl items center text-center text-gray-900">
+        <p className="mt-4 text-xl items center text-center text-blue-600">
           SEO is a vital part to a websites success. Let us handle it for you.
         </p>
         <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
