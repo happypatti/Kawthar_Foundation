@@ -163,7 +163,6 @@ export default async function DigitalMarketing() {
       </div>
     </div>
 
-      <ContactUs />
     </div>
   );
 }

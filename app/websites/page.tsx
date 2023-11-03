@@ -9,7 +9,6 @@ export default async function Home() {
       <Hero />
       <Features />
       <Portfolio />
-      <ContactUs />
     </div>
   );
 }

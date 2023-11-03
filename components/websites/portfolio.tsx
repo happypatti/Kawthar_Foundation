@@ -2,15 +2,31 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Shunar Construction",
-    href: "https://shunar-repo.vercel.app",
-    category: { name: "Landing Page", href: "https://shunar-repo.vercel.app" },
+    title: "Abdullah Ahmad Law Office",
+    href: "https://aalawky.xom",
+    category: { name: "Landing Page", href: "https://aalawky.com" },
     description:
-      "We worked with Shunar Construction to create a landing page for their business. They specialize in a great deal of construction services and we wanted to make sure that their website reflected that.",
+      "AA Law needed a landing page and more importantly, they were looking for the perfect SEO. We also helped them get started with GoogleAds to help them get even more clients.",
     date: "August 2023",
     datetime: "2023-08-16",
     imageUrl:
-      "/sooo.png",
+      "/aalaw.png",
+    author: {
+      name: "Ali Shalash",
+      href: "#",
+      imageUrl:
+        "/ali.jpg",
+    },
+  },
+  {
+    title: "NEXTLEVEL Sports of Lexington",
+    href: "https://nextlevellex.com",
+    category: { name: "FullStack Application", href: "https://nextlevellex.com" },
+    description:
+      "We created a custom website for NEXTLEVEL Sports of Lexington. The website is built using Next.js and Tailwind CSS. This site features a backend capable of handling reservations and payments.",
+    date: "September 2023",
+    datetime: "2023-09-12",
+    imageUrl: "/nextl3v3l.PNG",
     author: {
       name: "Ali Shalash",
       href: "#",
@@ -35,31 +51,15 @@ const projects = [
     },
   },
   {
-    title: "NEXTLEVEL Sports of Lexington",
-    href: "https://nextlevellex.com",
-    category: { name: "FullStack Application", href: "https://nextlevellex.com" },
+    title: "Shunar Construction",
+    href: "https://shunar-repo.vercel.app",
+    category: { name: "Landing Page", href: "https://shunar-repo.vercel.app" },
     description:
-      "We created a custom website for NEXTLEVEL Sports of Lexington. The website is built using Next.js and Tailwind CSS. This site features a backend capable of handling reservations and payments.",
-    date: "September 2023",
-    datetime: "2023-09-12",
-    imageUrl: "/nextlevel.JPG",
-    author: {
-      name: "Ali Shalash",
-      href: "#",
-      imageUrl:
-        "/ali.jpg",
-    },
-  },
-  {
-    title: "Raff's Tire",
-    href: "https://www.raffstire.com",
-    category: { name: "Landing Page", href: "https://www.raffstire.com" },
-    description:
-      "All your used tire and auto repair needs in one place. We worked with Raff's Tires to build a beautiful landing page that showcases their services and allows customers to contact them.",
+      "We worked with Shunar Construction to create a landing page for their business. They specialize in a great deal of construction services and we wanted to make sure that their website reflected that.",
     date: "August 2023",
     datetime: "2023-08-16",
     imageUrl:
-      "/raffs.png",
+      "/sooo.png",
     author: {
       name: "Ali Shalash",
       href: "#",
@@ -77,6 +77,23 @@ const projects = [
     datetime: "2023-08-16",
     imageUrl:
       "/usedtire.png",
+    author: {
+      name: "Ali Shalash",
+      href: "#",
+      imageUrl:
+        "/ali.jpg",
+    },
+  },
+  {
+    title: "Raff's Tire",
+    href: "https://www.raffstire.com",
+    category: { name: "Landing Page", href: "https://www.raffstire.com" },
+    description:
+      "All your used tire and auto repair needs in one place. We worked with Raff's Tires to build a beautiful landing page that showcases their services and allows customers to contact them.",
+    date: "August 2023",
+    datetime: "2023-08-16",
+    imageUrl:
+      "/raffs.png",
     author: {
       name: "Ali Shalash",
       href: "#",
