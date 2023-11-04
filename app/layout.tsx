@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { inter, sfPro, virgil } from "./fonts";
 import "./globals.css";
 import Head from "next/head";
+import GoogleAds from "./googleAds";
 
 export const metadata = {
   title: "Pixel Perfect Digital Solutions",
@@ -25,23 +26,7 @@ export const metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-          <Head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-G3EPEGCDJK"
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-G3EPEGCDJK');
-          `,
-        }}
-      />
-    </Head>
 
       <body className={cx(sfPro.variable, inter.variable, virgil.variable)}>
         <div className="fixed -z-10 h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
@@ -51,6 +36,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <main className="min-h-screen w-full py-16">{children}</main>
         <Footer />
         <Analytics />
+        <GoogleAds />
       </body>
     </html>
   );
