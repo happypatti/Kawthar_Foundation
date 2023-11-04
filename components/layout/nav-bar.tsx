@@ -19,7 +19,7 @@ export default function NavBar() {
   );
 
   const mobileNavClasses = cn("overflow-y-auto sm:hidden", {
-    "fixed inset-x-0 bottom-0 top-14 mt-px bg-black": isOpen,
+    "fixed inset-x-0 bottom-0 top-14 mt-px bg-white/50 backdrop-blur-xl": isOpen,
     hidden: !isOpen,
   });
 
