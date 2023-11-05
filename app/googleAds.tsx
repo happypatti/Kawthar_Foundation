@@ -1,26 +1,24 @@
-import Head from 'next/head';
+import Script from 'next/script';
 
 export default function GoogleAds() {
 
 return (
   <>
-    <Head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-G3EPEGCDJK"
+  <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-G3EPEGCDJK');
-          `,
-        }}
-      />
-    </Head>
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
   </>
 );
 }

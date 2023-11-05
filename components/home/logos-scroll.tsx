@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import InfiniteScroll from "../shared/infinite-scroll";
+import { useEffect, useState } from "react";
 
 const logos = [
   { name: "Google Ads", src: "/google-ads.webp" },
@@ -18,16 +19,25 @@ const logos = [
   { name: "Stipe", src: "/stripe.webp" },
 ];
 
+interface Logo {
+  name: string;
+  src: string;
+}
+
 export default function LogosScroll({ direction, speed }: { direction: "left" | "right"; speed: "fast" | "slow" }) {
+  const [sortedLogos, setSortedLogos] = useState<Logo[]>([]);
+
+  useEffect(() => {
+    setSortedLogos([...logos].sort(() => Math.random() - 0.5));
+  }, []);
+
   return (
     <InfiniteScroll direction={direction} speed={speed}>
-      {logos
-        .map(({ name, src }) => (
-          <div key={name} className="flex items-center justify-center">
-            <Image src={src} alt={name} width="64" height="64" className="rounded-[22.5%]" />
-          </div>
-        ))
-        .sort(() => Math.random() - 0.5)}
+      {sortedLogos.map(({ name, src }) => (
+        <div key={name} className="flex items-center justify-center">
+          <Image src={src} alt={name} width="64" height="64" className="rounded-[22.5%]" />
+        </div>
+      ))}
     </InfiniteScroll>
   );
 }
