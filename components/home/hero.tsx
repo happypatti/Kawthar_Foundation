@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="flex flex-col items-center min-h-screen py-2">
           <div className="bg-cover bg-center h-screen w-full sm:h-screen rounded-xl" style={{ backgroundImage: "url('/test.jpg')" }}>
               <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
-                  <h1 className="text-4xl font-bold text-white md:text-6xl">The Kawthar Foundation</h1>
+                  <h1 className="text-4xl font-bold text-white text-center md:text-6xl">The Kawthar Foundation</h1>
                   <p className="mt-3 text-lg text-gray-300 md:text-xl">
                       Committed to making a difference. 
                   </p>
@@ -23,7 +23,7 @@ export default function Hero() {
                               <div className="h-1 w-20 bg-blue-500 rounded"></div>
                           </div>
                           <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 text-lg">
-                              The Kawthar Foundation aims to empower communities by providing resources and education to foster sustainable development.
+                              The Kawthar Foundation aims to give charity to those in need.
                           </p>
                       </div>
                   </div>
