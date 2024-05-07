@@ -17,7 +17,7 @@ export default function DonationComponent() {
                 {donationTiers.map((amount) => (
                     <button
                         key={amount}
-                        className={`p-4 bg-blue-500 text-white rounded-lg focus:outline-none ${donationAmount === amount ? 'bg-blue-700' : ''}`}
+                        className={`p-4 bg-white text-black rounded-lg focus:outline-none ${donationAmount === amount ? 'bg-blue-700' : ''}`}
                         onClick={() => handleSetAmount(amount)}
                     >
                         ${amount}
@@ -36,7 +36,7 @@ export default function DonationComponent() {
                 />
             </div>
             <button
-                className="w-full bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-4"
+                className="w-full bg-slate-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-4"
                 onClick={() => console.log(`Donating $${donationAmount}`)}
             >
                 Donate ${donationAmount || 'Amount'}
