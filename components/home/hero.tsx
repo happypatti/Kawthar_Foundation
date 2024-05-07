@@ -2,11 +2,11 @@
 export default function Hero() {
   return (
       <div className="flex flex-col items-center min-h-screen py-2">
-          <div className="bg-cover bg-center h-screen w-full sm:h-screen/2 rounded-xl" style={{ backgroundImage: "url('/test.jpg')" }}>
+          <div className="bg-cover bg-center h-screen w-full sm:h-screen rounded-xl" style={{ backgroundImage: "url('/test.jpg')" }}>
               <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
                   <h1 className="text-4xl font-bold text-white md:text-6xl">The Kawthar Foundation</h1>
                   <p className="mt-3 text-lg text-gray-300 md:text-xl">
-                      Committed to making a difference.
+                      Committed to making a difference. 
                   </p>
                   <button className="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                       Learn More
