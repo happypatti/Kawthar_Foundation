@@ -1,9 +1,6 @@
 "use client";
 
 import ContactUs from "@/components/shared/contact-us";
-import Features from "@/components/websites/features";
-import Hero from "@/components/websites/hero";
-import Portfolio from "@/components/websites/portfolio";
 // pages/donate.js
 import DonationComponent from '../../components/DonateComponent';
 import DonationImpact from '../../components/donationImpact'
