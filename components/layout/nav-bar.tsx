@@ -28,10 +28,9 @@ export default function NavBar() {
       <div className={navBarClasses}>
         <div className="container mx-auto px-4">
           <div className="flex h-16 w-full items-center justify-between">
-            <Link href="/" className="flex items-center font-display text-2xl">
-              <Image src="" alt="Kawthar Foundation" width="250" height="50" className="mt-8 mr-2 rounded-sm"></Image>
-              
-            </Link>
+          <Link href="/" className="flex items-center justify-center font-italic text-3xl font-bold text-white mt-4 mb-4">
+        The Kawthar Foundation
+      </Link>
             <NavLinks className="hidden items-center text-xl space-x-8 whitespace-nowrap sm:flex" close={close} />
             {/* Mobile Nav Toggle */}
             <button
