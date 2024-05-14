@@ -43,7 +43,7 @@ export default function DonationComponent() {
 
       if (id) {
         const stripe = await stripePromise;
-        await stripe.redirectToCheckout({ sessionId: id });
+        await stripe!.redirectToCheckout({ sessionId: id });
       } else {
         console.error('Failed to create Stripe session');
       }
