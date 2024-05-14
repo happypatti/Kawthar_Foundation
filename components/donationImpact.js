@@ -2,28 +2,32 @@
 export default function DonationImpact() {
     const impacts = [
         {
-            amount: 10,
-            impact: "provides essential school supplies for one child."
-        },
-        {
-            amount: 25,
-            impact: "funds a health workshop for a community."
-        },
-        {
             amount: 50,
-            impact: "supports the planting of 10 trees."
+            impact: "here lies information."
         },
         {
             amount: 100,
-            impact: "buys textbooks for an entire classroom."
+            impact: "here lies information."
         },
         {
             amount: 250,
-            impact: "funds a small community project."
+            impact: "here lies information."
         },
         {
             amount: 500,
-            impact: "supports a scholarship for a student."
+            impact: "here lies information."
+        },
+        {
+            amount: 1000,
+            impact: "here lies information."
+        },
+        {
+            amount: 1500,
+            impact: "here lies information."
+        },
+        {
+            amount: 2000,
+            impact: "here lies information."
         }
     ];
 
