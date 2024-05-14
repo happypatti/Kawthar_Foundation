@@ -28,7 +28,7 @@ export default function NavBar() {
       <div className={navBarClasses}>
         <div className="container mx-auto px-4">
           <div className="flex h-16 w-full items-center justify-between">
-          <Link href="/" className="flex items-center justify-center font-italic text-3xl font-bold text-white mt-4 mb-4">
+          <Link href="/" className="flex items-center justify-center font-italic xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl font-bold text-white mt-4 mb-4">
         The Kawthar Foundation
       </Link>
             <NavLinks className="hidden items-center text-xl space-x-8 whitespace-nowrap sm:flex" close={close} />
