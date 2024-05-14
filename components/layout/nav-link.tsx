@@ -22,7 +22,7 @@ export default function NavLink({
   var isActive = slug === segment;
 
   return (
-    <Link href={`/${slug}`} className={cn(isActive ? "text-bold text-white" : "text-bold text-white hover:text-3xl", className)} onClick={close}>
+    <Link href={`/${slug}`} className={cn(isActive ? "text-bold text-sleet" : "text-bold text-white hover:text-3xl", className)} onClick={close}>
       {children}
     </Link>
   );
