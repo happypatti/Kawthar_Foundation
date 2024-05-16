@@ -1,0 +1,1 @@
+Created for the Kawthar Foundation Inc. in Lexington, KY. This was made a few days ago and was derived from pixelperfectky.com. It handles stripe payments. More coming as soon as foundation provides content.
